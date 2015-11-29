@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyan_green">#1996b5</color>
+    <color name="light_blue">#03A9F4</color>
+    <color name="orange">#F57C00</color>
+    <color name="darkOrange">#F57000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ColorPrimary">#00897B</color>
+    <color name="ColorPrimaryDark">#00695C</color>
+    <color name="tabsScrollColor">#004D40</color>
+    <color name="cy_green">#00BCD4</color>
+    <color name="cy_greenDark">#0288D1</color>
+    <color name="grey">#B6B6B6</color>
+    <color name="dark_blue">#1976D2</color>
+    <color name="googleOrange">#ed7902</color>
+    <color name="facebookBlue">#3b5998</color>
+    <color name="purpleDark">#7B1FA2</color>
+    <color name="colorPrimaryPurple">#673AB7</color>
+    <color name="colorPrimaryPurpleDark">#512DA8</color>
+    <color name="colorAccentPurple">#FF4081</color>
+    <color name="yellowDark">#FBC02D</color>
+    <color name="yellowLight">#FFEB3B</color>
+    <color name="grenn">#4CAF50</color>
+</resources>

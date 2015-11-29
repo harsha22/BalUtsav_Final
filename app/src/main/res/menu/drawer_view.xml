@@ -1,0 +1,29 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_first_fragment"
+                android:icon="@drawable/com_facebook_button_send_icon"
+                android:title="First" />
+            <item
+                android:id="@+id/nav_second_fragment"
+                android:icon="@drawable/tabimg"
+                android:title="Second" />
+            <item
+                android:id="@+id/nav_third_fragment"
+                android:icon="@drawable/messenger_bubble_small_blue"
+                android:title="Third" />
+            <item android:title="Sub items">
+                <menu>
+                    <item
+                        android:icon="@drawable/com_facebook_close"
+                        android:title="Sub item 1" />
+
+                    <item
+                        android:icon="@drawable/com_facebook_button_like_icon_selected"
+                        android:title="Sub item 2" />
+                </menu>
+            </item>
+        </group>
+</menu>

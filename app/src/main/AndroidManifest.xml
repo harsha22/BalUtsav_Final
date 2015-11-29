@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="login.lawersinc.com.lawersinc" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- google play signin specific dependencies -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/balutsav4"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lawersinc.loginflow.flow.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lawersinc.loginflow.flow.LoginPage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.lawersinc.loginflow.flow.SignUpPage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.lawersinc.bl.MainPage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider762195700557410"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.lawersinc.bl.UserProfile"
+            android:label="@string/title_activity_user_profile"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.questions.MathQuestions"
+            android:label="@string/title_activity_math_questions"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.questions.EnglishActivity"
+            android:label="@string/title_activity_english"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.excelread.PhototTakeSend"
+            android:label="@string/title_activity_photot_take_send"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.finish.Finish"
+            android:label="@string/title_activity_finish"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.finish.FinalScreen"
+            android:label="@string/title_activity_finish"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.lawersinc.level.Level"
+            android:label="@string/title_activity_level"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Bal Utsav</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="signUp">Let\'s Get Started</string>
+    <string name="loginString">Already a member?</string>
+    <string name="privacyPolicyMessage">By signing up, you agree to our\nTerms of Service &amp; Privacy Policy</string>
+    <string name="emailSignUp">Sign Up With Email</string>
+    <string name="dateOfBirth">Date Of Birth</string>
+    <!--facebook login-->
+    <string name="facebook_app_id">762195700557410</string>
+
+    <!--nav drawer-->
+    <string-array name="menu_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_activity_excel_read">ExcelRead</string>
+    <string name="title_activity_take_photo">takePhoto</string>
+    <string name="title_activity_question_template">questionTemplate</string>
+    <string name="title_activity_math_questions">MathQuestions</string>
+    <string name="title_activity_english">EnglishActivity</string>
+    <string name="title_activity_photot_take_send">PhototTakeSend</string>
+    <string name="title_activity_finish">Finish</string>
+    <string name="title_activity_speech_listener">SpeechListener</string>
+    <string name="title_activity_level">Level</string>
+</resources>

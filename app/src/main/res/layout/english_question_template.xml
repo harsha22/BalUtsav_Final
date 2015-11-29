@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bal Utsav"
+        android:id="@+id/BalUtsav"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10pt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/equestion_textView"
+        android:layout_below="@+id/BalUtsav"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:textSize="18pt"
+        android:text="Blah Blah Blah Blah"
+        android:src="@drawable/com_facebook_profile_picture_blank_square"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@+id/esubmit_button"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:id="@+id/esubmit_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@color/ColorPrimary"
+        android:layout_marginLeft="5pt"
+        android:layout_marginRight="5pt"
+        android:layout_gravity="center_vertical|center_horizontal"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Speak Now"
+        android:textColor="@color/white"
+        android:id="@+id/espeak_now"
+        android:layout_marginBottom="27dp"
+        android:background="@color/orange"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignLeft="@+id/esubmit_button"
+        android:layout_alignStart="@+id/esubmit_button"
+        android:layout_alignRight="@+id/esubmit_button"
+        android:layout_alignEnd="@+id/esubmit_button" />
+
+
+</RelativeLayout>

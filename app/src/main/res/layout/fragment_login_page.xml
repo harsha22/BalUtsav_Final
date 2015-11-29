@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".LoginPageActivity$PlaceholderFragment">
+
+    <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/section_label"
+        android:layout_toEndOf="@+id/section_label"
+        android:weightSum="1"
+        >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="326dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="0dp"
+            android:background="@color/colorPrimaryPurple" />
+
+        <android.support.design.widget.TabLayout
+            style="@style/MyCustomTabLayout"
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryPurple"
+            tools:tabMode="scrollable"
+            app:tabTextColor="@color/grey"
+            app:tabSelectedTextColor="@color/white"
+            app:tabGravity="center"
+            android:fillViewport="false" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signUp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/signUp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@color/grenn"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loginString"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/loginIn"
+            android:textAllCaps="false"
+            android:textColor="@color/dark_blue"
+            android:background="@android:color/transparent"
+            style="?android:attr/borderlessButtonStyle"
+            android:textStyle="normal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="10dp"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+    </LinearLayout>
+
+</RelativeLayout>
